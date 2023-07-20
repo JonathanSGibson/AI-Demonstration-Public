@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{bb3eb8c3-958b-42a7-b158-78041e091fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Behaviour Tree">
+      <UniqueIdentifier>{c1cf7d57-6f5e-48f1-b70b-32ba104a1f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Behaviour Tree\Generic">
+      <UniqueIdentifier>{e487f275-ddca-40a8-a94f-7d9644db1244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Grid and World">
+      <UniqueIdentifier>{c219766b-9f49-4306-8037-f6bf4c5331fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HUD">
+      <UniqueIdentifier>{c162cce6-0d1d-4790-982c-87548764f2d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Behaviour Tree">
+      <UniqueIdentifier>{f7efcf97-de2c-40e2-a73b-4e65dfff3f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Behaviour Tree\Generic">
+      <UniqueIdentifier>{3f5725e5-6958-4926-b1cf-0a9a027e4ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Grid and World">
+      <UniqueIdentifier>{8d8015ae-2559-4ada-9bfc-3388c80517b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HUD">
+      <UniqueIdentifier>{a986f5ee-6fe4-4437-bc31-d9ab3a12b4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Agents">
+      <UniqueIdentifier>{bc796e04-04a7-4cbe-ac38-607a13a9393e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Agents">
+      <UniqueIdentifier>{e6afe0d8-fdd2-4ff7-8298-3f3f76b1a56e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Behaviour.cpp">
+      <Filter>Source Files\Behaviour Tree\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="Composite.cpp">
+      <Filter>Source Files\Behaviour Tree\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="Selector.cpp">
+      <Filter>Source Files\Behaviour Tree\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence.cpp">
+      <Filter>Source Files\Behaviour Tree\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="GridManager.cpp">
+      <Filter>Source Files\Grid and World</Filter>
+    </ClCompile>
+    <ClCompile Include="Steering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rat.cpp">
+      <Filter>Source Files\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Source Files\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>Source Files\Grid and World</Filter>
+    </ClCompile>
+    <ClCompile Include="Miner.cpp">
+      <Filter>Source Files\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="MinerBehaviours.cpp">
+      <Filter>Source Files\Behaviour Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HudManager.cpp">
+      <Filter>Source Files\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilRandom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Behaviour.h">
+      <Filter>Header Files\Behaviour Tree\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="Blackboard.h">
+      <Filter>Header Files\Behaviour Tree\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite.h">
+      <Filter>Header Files\Behaviour Tree\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator.h">
+      <Filter>Header Files\Behaviour Tree\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="Selector.h">
+      <Filter>Header Files\Behaviour Tree\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence.h">
+      <Filter>Header Files\Behaviour Tree\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="GridManager.h">
+      <Filter>Header Files\Grid and World</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilRandom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Steering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rat.h">
+      <Filter>Header Files\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>Header Files\Grid and World</Filter>
+    </ClInclude>
+    <ClInclude Include="Miner.h">
+      <Filter>Header Files\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="MinerBehaviours.h">
+      <Filter>Header Files\Behaviour Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Header Files\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="HudManager.h">
+      <Filter>Header Files\HUD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\boid.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
